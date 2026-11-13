@@ -1,0 +1,65 @@
+SYNTHETIC MEDICAL KNOWLEDGE BASE FOR CRITIC-MedRAG TESTING
+
+Diabetes mellitus is a chronic metabolic condition associated with elevated blood glucose. Metformin is commonly used as a medicine for type 2 diabetes in this synthetic demonstration dataset. Diabetes mellitus can be associated with increased blood glucose levels. HbA1c and blood glucose tests can be used to assess glucose-related status.
+
+Metformin interacts with Warfarin in this synthetic demonstration dataset. Warfarin is an anticoagulant medicine. Medication interactions should be verified against authoritative drug-interaction references before clinical use.
+
+Hypertension is associated with elevated blood pressure. Amlodipine is a blood pressure medicine used in this synthetic dataset. Lisinopril is also represented as a medicine associated with hypertension management. Blood pressure measurement can be used to monitor hypertension.
+
+Hypertension can be associated with increased cardiovascular risk. Hypertension may be related to kidney disease in this synthetic knowledge graph. Creatinine testing and estimated kidney function are represented as laboratory evidence for kidney assessment.
+
+Asthma is a respiratory condition associated with symptoms such as wheezing, cough, and shortness of breath. Salbutamol is represented as a bronchodilator medicine in this synthetic dataset. Respiratory symptoms can be assessed together with clinical evaluation and pulmonary function testing.
+
+Pneumonia is a respiratory infection that can be associated with cough, fever, and shortness of breath. A chest X-ray is represented as an imaging investigation in this synthetic dataset. A complete blood count may also be used as supporting laboratory information.
+
+Anemia can be associated with fatigue, weakness, and reduced exercise tolerance. Persistent fatigue can indicate anemia in this synthetic demonstration dataset. A complete blood count (CBC) is represented as a laboratory test associated with anemia. Iron studies can also be represented as laboratory evidence when investigating iron-related anemia.
+
+Iron deficiency anemia is associated with insufficient iron availability. Ferritin is represented as a laboratory test related to iron stores. CBC and ferritin can therefore form a multi-step evidence path for iron deficiency anemia.
+
+Migraine is associated with recurrent headache and may include nausea or sensitivity to light. Sumatriptan is represented as a migraine medicine in this synthetic dataset. Headache is represented as a symptom associated with migraine.
+
+Rheumatoid arthritis is an inflammatory joint condition associated with joint pain and stiffness. Methotrexate is represented as a medicine used in the synthetic dataset for rheumatoid arthritis. ESR and CRP are represented as laboratory tests associated with assessment of inflammation.
+
+Osteoarthritis is associated with joint pain and stiffness. Physical examination and imaging may be used when evaluating joint symptoms. Ibuprofen is represented as a medicine in this synthetic demonstration dataset.
+
+Hypothyroidism is associated with symptoms such as fatigue and cold intolerance. Levothyroxine is represented as a medicine for hypothyroidism in this synthetic dataset. TSH is represented as a laboratory test associated with thyroid evaluation.
+
+Hyperthyroidism can be associated with palpitations, heat intolerance, and weight loss. TSH and free T4 are represented as laboratory tests for thyroid evaluation. Methimazole is represented as a medicine in this synthetic dataset.
+
+Chronic kidney disease is associated with impaired kidney function. Creatinine is represented as a laboratory measurement associated with kidney function. Urinalysis is represented as another laboratory investigation. Hypertension and diabetes mellitus are represented as conditions that may be connected to kidney disease in this synthetic knowledge graph.
+
+Heart failure can be associated with shortness of breath, fatigue, and swelling. BNP is represented as a laboratory test that may provide supporting information in this synthetic dataset. Echocardiography is represented as an imaging investigation.
+
+Atrial fibrillation is an irregular heart rhythm. Palpitations and fatigue are represented as symptoms associated with atrial fibrillation. Warfarin is represented as an anticoagulant medicine in this synthetic dataset. INR is represented as a laboratory test used to monitor anticoagulation with warfarin.
+
+Hyperlipidemia is associated with elevated blood lipid levels. Atorvastatin is represented as a cholesterol-lowering medicine. LDL cholesterol is represented as a laboratory measurement associated with lipid assessment.
+
+Gastroesophageal reflux disease can be associated with heartburn and regurgitation. Omeprazole is represented as a medicine in this synthetic dataset. Persistent symptoms may lead to further clinical evaluation.
+
+Urinary tract infection can be associated with dysuria, urinary frequency, and urgency. Urinalysis is represented as a laboratory test associated with urinary evaluation. Urine culture is represented as another laboratory investigation.
+
+Malaria is an infectious disease that can be associated with fever, chills, headache, and fatigue. A blood smear is represented as a laboratory investigation in this synthetic dataset. Antimalarial therapy is represented generically rather than as a clinical prescribing recommendation.
+
+Dengue is represented as an infectious disease associated with fever, headache, fatigue, and low platelet counts in this synthetic demonstration dataset. CBC is represented as a laboratory test associated with blood-count assessment.
+
+Influenza is a respiratory viral illness associated with fever, cough, fatigue, and body aches. Viral testing is represented as a diagnostic investigation in this synthetic dataset.
+
+Allergic rhinitis can be associated with sneezing, nasal congestion, and itchy eyes. Antihistamine therapy is represented generically in this synthetic dataset.
+
+Peptic ulcer disease can be associated with abdominal discomfort. Helicobacter pylori testing is represented as a diagnostic investigation in this synthetic dataset. Proton-pump inhibitor therapy is represented generically.
+
+Liver disease may be associated with abnormal liver enzymes. ALT and AST are represented as laboratory tests for liver assessment. Bilirubin is represented as another laboratory measurement.
+
+Anemia can be connected to fatigue, fatigue can lead to a CBC test, and CBC findings can lead to additional iron studies in this synthetic knowledge graph.
+
+Diabetes mellitus can be connected to Metformin, Metformin can interact with Warfarin, and Warfarin can be associated with INR monitoring. This creates a multi-hop path for testing graph reasoning.
+
+Hypertension can be connected to chronic kidney disease, chronic kidney disease can be connected to creatinine testing, and creatinine testing can provide laboratory evidence for kidney-function assessment.
+
+Rheumatoid arthritis can be connected to joint pain, joint pain can be connected to inflammatory evaluation, and inflammatory evaluation can include ESR and CRP in this synthetic knowledge graph.
+
+Hypothyroidism can be connected to fatigue, fatigue can be connected to anemia, and anemia can be connected to CBC testing. This intentionally creates a cross-condition path for graph-retrieval experiments.
+
+Atrial fibrillation can be connected to Warfarin, Warfarin can be connected to INR monitoring, and medication safety questions can therefore be tested through multi-hop retrieval.
+
+The knowledge base is synthetic and intended only for evaluating information retrieval, knowledge graphs, vector search, hybrid retrieval, and hallucination-detection software.
