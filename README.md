@@ -1,4 +1,4 @@
-# 🧠 CRITIC-MedRAG
+# 🧠 CRITIC-MedRAG – Verification-Enhanced Medical Retrieval-Augmented Generation System
 
 **From medical text to evidence-checked answers.**
 
